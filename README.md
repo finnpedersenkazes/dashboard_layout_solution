@@ -29,17 +29,18 @@ Our starting point
       <div class="card">
 ```
 
-Our cards are inside the container and we want layout them out in a grid. 
+Our cards are inside the container and we want to them laid out in a grid.
 
-We want two rows of equal height and four columns where the three last have the same size. Add the .container selector to the profile.css, then add the display: grid and define the columns and rows. 
+We want two rows of equal height and four columns where the three last have the same size. Add the .container selector to the profile.css, then add the display: grid and define the columns and rows.
 
 Before going on, take a minute to look at this example:
 
-[https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+[https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_Grid\_Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 
-We define the grid in the container class and then position each card in the grid. 
+We define the grid in the container class and then position each card in the grid.
 
-To do so, we add a class to each card: main, one, two, three and description. 
+To do so, we add a class to each card: main, one, two, three and description.
+
 ```css
 .container {
   display: grid;
@@ -61,7 +62,8 @@ To do so, we add a class to each card: main, one, two, three and description.
       <div class="description card">...
       </div>
     </div>
-````
+`
+```
 
 ```css
 .main {
@@ -88,14 +90,13 @@ To do so, we add a class to each card: main, one, two, three and description.
   grid-column: 2 / span 3;
   grid-row: 2;
 }
-
 ```
 
 ![image alt text](images/image_5.png)
 
-And our cards nicely find their places and it looks nice. 
+And our cards nicely find their places and it looks nice.
 
-One last thing. If we would like the cards to have the same height, we can add a height to the container div. For example 90vh. It is up to you, what you prefer. 
+One last thing. If we would like the cards to have the same height, we can add a height to the container div. For example 90vh. It is up to you, what you prefer.
 
 ```css
 .container {
@@ -108,6 +109,7 @@ One last thing. If we would like the cards to have the same height, we can add a
 
 ![image alt text](images/image_7.png)
 
-I hope this solution shows you how to used Bootstrap Grid. Feedback is welcome. 
+I hope this solution shows you how to used Bootstrap Grid. Feedback is welcome.
 
 Finn Pedersen
+
